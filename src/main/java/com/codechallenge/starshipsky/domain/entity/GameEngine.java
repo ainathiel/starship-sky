@@ -1,4 +1,4 @@
-package com.nhsoluciones.starshipsky.domain.entity;
+package com.codechallenge.starshipsky.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;

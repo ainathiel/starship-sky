@@ -1,4 +1,4 @@
-package com.nhsoluciones.starshipsky;
+package com.codechallenge.starshipsky;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

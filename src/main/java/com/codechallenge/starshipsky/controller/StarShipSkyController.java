@@ -1,8 +1,8 @@
-package com.nhsoluciones.starshipsky.controller;
+package com.codechallenge.starshipsky.controller;
 
-import com.nhsoluciones.starshipsky.domain.entity.GameEngine;
-import com.nhsoluciones.starshipsky.domain.entity.StarShipPlayer;
-import com.nhsoluciones.starshipsky.domain.service.MovementService;
+import com.codechallenge.starshipsky.domain.entity.GameEngine;
+import com.codechallenge.starshipsky.domain.service.MovementService;
+import com.codechallenge.starshipsky.domain.entity.StarShipPlayer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;

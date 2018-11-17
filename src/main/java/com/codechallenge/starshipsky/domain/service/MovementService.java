@@ -1,6 +1,6 @@
-package com.nhsoluciones.starshipsky.domain.service;
+package com.codechallenge.starshipsky.domain.service;
 
-import com.nhsoluciones.starshipsky.domain.entity.GameEngine;
+import com.codechallenge.starshipsky.domain.entity.GameEngine;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
