@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Size {
+public class Size {
     private int height;
     private int width;
 }

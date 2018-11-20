@@ -7,7 +7,7 @@ import java.util.UUID;
 
 @Getter
 @Setter
-class Player {
+public class Player {
     private UUID id;
     private String name;
     private Position position;

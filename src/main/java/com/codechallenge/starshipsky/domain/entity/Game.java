@@ -7,6 +7,6 @@ import java.util.UUID;
 
 @Getter
 @Setter
-class Game {
+public class Game {
     private UUID id;
 }

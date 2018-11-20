@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Invaders {
+public class Invaders {
     private int y;
     private int x;
     private boolean neutral;

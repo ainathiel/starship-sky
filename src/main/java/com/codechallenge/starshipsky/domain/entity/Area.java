@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Area {
+public class Area {
     private int y1;
     private int y2;
     private int x1;

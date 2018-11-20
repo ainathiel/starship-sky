@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Previous {
+public class Previous {
     private int y;
     private int x;
 }

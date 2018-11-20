@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Players {
+public class Players {
     private int y;
     private int x;
 }

@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Walls {
+public class Walls {
     private int y;
     private int x;
 }

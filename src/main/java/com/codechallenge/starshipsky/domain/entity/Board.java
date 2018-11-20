@@ -7,7 +7,7 @@ import java.util.List;
 
 @Getter
 @Setter
-class Board {
+public class Board {
     private Size size;
     private List<Walls> walls;
 }
