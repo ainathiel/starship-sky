@@ -1,6 +1,7 @@
 package com.codechallenge.starshipsky.controller;
 
 import com.codechallenge.starshipsky.domain.entity.GameEngine;
+import com.codechallenge.starshipsky.domain.entity.Movement;
 import com.codechallenge.starshipsky.domain.service.MovementService;
 import com.codechallenge.starshipsky.domain.entity.StarShipPlayer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,7 @@ public class StarShipSkyController {
     }
 
     @RequestMapping(value = "/move", method = RequestMethod.POST)
-    public ResponseEntity<String> move(@RequestBody GameEngine gameEngine) {
+    public ResponseEntity<Movement> move(@RequestBody GameEngine gameEngine) {
 
         return new ResponseEntity<>(movement.getNextMovement(gameEngine),HttpStatus.OK);
     }
